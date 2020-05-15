@@ -25,47 +25,39 @@
 
   <!-- Nabar -->
   <section id="title">
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark ">
-
-        <!-- <a class="btn btn-outline-info " href="official_login.html"><span><i class="fas fa-user-lock"></i></span> Official Login</a> -->
-        <div class="btn-group" role="group">
-          <a class="navbar-brand" href="#"><span><i class="fab fa-think-peaks fa-2x"></i></span> Crime Report System</a>
-          <button id="btnGroupDrop1" type="button" class="btn btn-outline-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span><i class="fas fa-user-lock"></i></span> Official Login
-          </button>
-          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-            <a class="dropdown-item" href="police_login.html">Police Login</a>
-            <a class="dropdown-item" href="incharge_login.html">Incharge Login</a>
-            <a class="dropdown-item" href="hq_login.html">HQ Login</a>
-          </div>
-        </div>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <a class="navbar-brand" href="#"><span><i class="fab fa-think-peaks fa-2x"></i></span> Crime Report System</a>
+      <!-- <a class="btn btn-outline-info " href="official_login.html"><span><i class="fas fa-user-lock"></i></span> Official Login</a> -->
+      <div class="dropdown">
+        <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span><i class="fas fa-user-lock"></i></span> Official Login
         </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-
-          <ul class="navbar-nav ml-auto">
-            <li>
-
-            </li>
-            <li class="nav-item">
-
-              <a class="nav-link" href="user_login.html"><span><i class="fas fa-users"></i></span> Login</a>
-            </li>
-            <li class="nav-item">
-              <a class=" btn btn-outline-light" href="sign_up.html">Sign Up</a>
-            </li>
-
-          </ul>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="police_login.html">Police Login</a>
+          <a class="dropdown-item" href="incharge_login.html">Incharge Login</a>
+          <a class="dropdown-item" href="hq_login.html">HQ Login</a>
         </div>
-      </nav>
-    </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="user_login.html"><span><i class="fas fa-users"></i></span> Login</a>
+          </li>
+          <li class="nav-item">
+            <a class=" btn btn-outline-light" href="sign_up.html">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
   </section>
   <!-- Carousel -->
   <section id="photo-carousel">
-
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -104,14 +96,10 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-
   </section>
 
   <!-- CARD-View -->
   <section id="card-view">
-
-    <!-- <div class="row">
-      <div class="card-column "> -->
     <div class="row">
       <div class="card-column col-lg-4 col-sm-12">
         <div class="card">
@@ -145,9 +133,7 @@
           <div class="card-body">
             <div class="card-head">
               <h5 class="card-title">POLICE<span style="display: block;">PATROL</span></h5>
-
             </div>
-
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
               commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -155,12 +141,10 @@
         </div>
       </div>
     </div>
-
   </section>
 
   <!-- Footer -->
-  <section id="footer-abc">
-
+  <section id="footer-index">
     <footer id="footer">
       <a href="#"><i class="fab fa-twitter foot-icon"></i></a>
       <a href="facebook.com"><i class="fab fa-facebook foot-icon"></i></a>
@@ -168,8 +152,9 @@
       <a href="#"><i class="far fa-envelope foot-icon"></i></a>
       <p>© Copyright 2020 CRMS</p>
     </footer>
-
   </section>
+
+  
 </body>
 
 </html>
