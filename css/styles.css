@@ -1,19 +1,21 @@
 body{
       background-color: #B3CCD5;
 }
-
-
+p{
+  margin-bottom: 0;
+}
 
 h5{
   font-size: 3rem;
+  text-shadow: 2px 2px 3px black;
 }
-
 .container-fluid{
   padding:0 0;
   display:block;
 }
-/* Navbar */
 
+
+/* Navbar */
 .navbar{
   /* background-color: rgb(45, 28, 96); */
   background-color: #012B3A;
@@ -24,31 +26,26 @@ h5{
   padding:0 10px;
 }
 .fa-users{
-
   color:#fff;
-
 }
 .navbar-brand{
   padding: 0 10px 5px;
-
 }
 .fa-sign-in-alt{
   color: rgb(45, 130, 218);
 }
+
 /* Carousel */
+.caro-img{
+  margin-top: -40px;
+  }
 
-.carousel-img{
-  font-size: 4rem;
-  padding: 50px 0;
-
-}
-
+/* CARD */
 #card-view{
   padding : 5%;
   text-align: center;
 }
 .card-head{
-
   text-align: center;
   position: relative;
 }
@@ -63,6 +60,23 @@ h5{
 .card-column{
   padding: 1%
 }
+
+/* Footer */
+#footer{
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  background-color: #012B3A;
+  color: white;
+  padding-bottom: 10px;
+}
+.foot-icon{
+  padding: 2px 8px;
+  color:white;
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
 
 /* user_login */
 .form-signin {
@@ -96,11 +110,7 @@ h5{
   border-top-right-radius: 0;
 }
 
-.caro-img{
-
-      
-      margin-top: -40px;
-  }
+/* ----------------------------------------------------------------------------------------- */
 
 /* sign_up.html */
 
