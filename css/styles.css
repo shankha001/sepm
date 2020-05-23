@@ -1,5 +1,7 @@
+
 body{
       background-color: #B3CCD5;
+
 }
 h5{
   font-size: 3rem;
@@ -8,11 +10,18 @@ h5{
 .container-fluid{
   padding:0 0;
 }
+.wrapper {
+  min-height: 100%;
 
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin:1% 0 5%;
+}
 /* Navbar */
 .navbar{
   background-color: #012B3A;
   padding: 20px 5px;
+
 }
 .nav-item{
   padding:0 10px;
@@ -43,38 +52,39 @@ h5{
 #card-view{
   padding : 5%;
   text-align: center;
+
 }
 .card-icon{
   background-color: #012B3A;
   color: white;
   padding:  10% 0;
+
 }
 .card-icon:hover{
-  color:rgb(45, 130, 218);
+  color:rgb(245, 205, 2);
+
 }
 .card-column{
-  padding: 1%
+  padding: 1%;
+
 }
 
 /* Footer */
 #footer{
-  text-align: center;
-  font-size: 1.5rem;
-  line-height: 1.5;
   background-color: #012B3A;
+  line-height: 1.5;
   color: white;
-  padding: 0.5% 0;
+  text-align: center;
+  padding: 1% 15%;
+  margin: 2% 0 0 ;
+  font-size: 1.4rem;
+
 }
 .foot-icon{
   padding: 2px 8px;
   color:white;
 }
 
-.footer-abc #footer{
-  position: fixed;
-  bottom:0;
-  width:100%;
-}
 
 /* ----------------------------------------------------------------------------------------- */
 
@@ -111,6 +121,14 @@ h5{
   border-top-right-radius: 0;
 }
 
+.form-box{
+
+  border-radius: 30px;
+  border: 1px solid #000;
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.3);
+  padding: 10%;
+
+}
 /* ----------------------------------------------------------------------------------------- */
 
 /* sign_up.html */
